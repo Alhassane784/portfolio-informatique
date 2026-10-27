@@ -1,0 +1,41 @@
+<nav class="navbar">
+    <div class="nav-logo">
+      <span class="bracket">&lt;</span>Alhassane<span class="dot">.</span>AF<span class="bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <section class="hero" id="accueil">
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="t-btn red"></span>
+        <span class="t-btn yellow"></span>
+        <span class="t-btn green"></span>
+        <span class="t-title">bash — MONportfolio</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="prompt">$</span> whoami</p>
+        <p class="output"><strong>Alhassane Fofana</strong></p>
+        <p><span class="prompt">$</span> cat poste.txt</p>
+        <p class="output">Technicien en Informatique</p>
+        <p><span class="prompt">$</span> cat disponibilite.txt</p>
+        <p class="output typed">Disponible pour emploi · Ouvert aux opportunités<span class="cursor">|</span></p>
+      </div>
+    </div>
+    <div class="hero-text">
+      <p class="hero-tag">Diplômé en Technique de l'Informatique</p>
+      <h1>Alhassane<br/><span class="accent">Fofana</span></h1>
+      <p class="hero-desc">Support technique · Réseaux · Cybersécurité · Administration système</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Me contacter</a>
+        <a href="#projets" class="btn-outline">Voir mes projets</a>
+      </div>
+    </div>
+  </section>

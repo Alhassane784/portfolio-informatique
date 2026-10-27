@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Technicien Informatique</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+   <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="bracket">&lt;</span>Alhassane<span class="dot">.</span>AF<span class="bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="t-title">MonportFolio</span>
+      </div>
+
+      <div class="terminal-body">
+        <p><span class="prompt"></span>Nom</p>
+        <p class="output"><strong>Alhassane Fofana</strong></p>
+        <p><span class="prompt"></span>Etudes</p>
+        <p class="output">Technicien en Informatique</p>
+        <p><span class="prompt"></span>Mes disponibilités</p>
+        <p class="output typed">Disponible pour emploi et · Ouvert aux opportunités<span class="cursor">|</span></p>
+      </div>
+    </div>
+    <div class="hero-text">
+      <p class="hero-tag">Diplômé en Technique de l'Informatique</p>
+      <h1>Alhassane<br/><span class="accent">Fofana</span></h1>
+      <p class="hero-desc">Support technique · Réseaux · Cybersécurité · Administration système</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Me contacter</a>
+        <a href="#projets" class="btn-outline">Voir mes projets</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+
+  <!-- À PROPOS -->
+  <section class="section" id="apropos">
+    <div class="section-label">// À propos</div>
+    <div class="about-grid">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <div class="photo-inner">AF</div>
+        </div>
+        <div class="about-badge">
+          <span>✓</span> Disponible
+        </div>
+      </div>
+      <div class="about-content">
+        <h2>Passionné de technologie,<br/><span class="accent">prêt à relever les défis</span></h2>
+        <p>Diplômé du programme de Techniques de l'informatique, j'ai acquis une solide formation en support technique, administration des réseaux et sécurité informatique. Je suis reconnu pour ma rigueur, ma capacité à résoudre des problèmes complexes et mon sens du service client.</p>
+        <p>À la recherche d'un premier emploi dans le domaine de l'informatique, je souhaite mettre mes compétences au service d'une entreprise dynamique et contribuer à son infrastructure technologique.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Ans de formation</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4</span>
+            <span class="stat-label">Projets réalisés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section section-alt" id="competences">
+    <div class="section-label">// Compétences</div>
+    <h2 class="section-title">Ce que je maîtrise</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Support Technique</h3>
+        <ul>
+          <li>Dépannage Windows /Linux</li>
+          <li>Installation et configuration de postes</li>
+          <li>Gestion des tickets</li>
+          
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Réseaux</h3>
+        <ul>
+          <li>TCP/IP, DNS, DHCP, VPN</li>
+          <li>Configuration routeurs & commutateurs</li>
+          <li>Cisco / Packet Tracer</li>
+          <li>Analyse réseau</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Cybersécurité</h3>
+        <ul>
+          <li>Sécurisation des systèmes</li>
+          <li>Gestion des pare-feux</li>
+          <li>Antivirus & politiques de sécurité</li>
+          <li>Bases de la cryptographie</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Administration Système</h3>
+        <ul>
+          <li>Serveurs Windows Server</li>
+          <li>Virtualisation (VMware, VirtualBox)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Bases de Données</h3>
+        <ul>
+          <li>MySQL</li>
+          <li>Requêtes SQL avancées</li>
+          <li>Sauvegarde & restauration</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon"></div>
+        <h3>Développement</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python</li>
+          <li>Notions PHP</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Barres de compétences -->
+    <div class="skill-bars">
+      <h3 class="bars-title">Niveau de maîtrise</h3>
+      <div class="bar-item">
+        <div class="bar-label"><span>Support Technique</span><span>90%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Réseaux</span><span>80%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Cybersécurité</span><span>70%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Admin. Système</span><span>75%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Scripting / Dev</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:65%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section" id="projets">
+    <div class="section-label">// Projets</div>
+    <h2 class="section-title">Mes réalisations</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Réseau</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3>Déploiement réseau d'entreprise</h3>
+        <p>Conception et déploiement d'une infrastructure réseau complète pour une PME fictive : routeurs, commutateurs, VLANs, serveur DHCP/DNS.</p>
+        <div class="project-tech">
+          <span>Cisco IOS</span><span>Packet Tracer</span><span>VLAN</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Sécurité</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3>Audit de sécurité réseau</h3>
+        <p>Réalisation d'un audit de sécurité sur un réseau de laboratoire : analyse des vulnérabilités, rapport et recommandations.</p>
+        <div class="project-tech">
+          <span>Wireshark</span><span>Nmap</span><span>Kali Linux</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Scripting</span>
+          <span class="project-year">2025</span>
+        </div>
+        <h3>Script d'automatisation Bash</h3>
+        <p>Développement d'un script Bash pour automatiser les sauvegardes quotidiennes et envoyer des rapports par courriel.</p>
+        <div class="project-tech">
+          <span>Bash</span><span>Linux</span><span>Cron</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Support</span>
+          <span class="project-year">2026</span>
+        </div>
+        <h3>Déploiement de postes de travail</h3>
+        <p>Déploiement et configuration de 20 postes Windows 10 en entreprise, avec intégration au domaine et installation des logiciels métiers.</p>
+        <div class="project-tech">
+          <span>Windows 10</span><span>SCCM</span><span>Active Directory</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Base de données</span>
+          <span class="project-year">2027</span>
+        </div>
+        <h3>Gestion d'inventaire IT</h3>
+        <p>Création d'une application web simple pour gérer l'inventaire du matériel informatique d'une école, avec base de données MySQL.</p>
+        <div class="project-tech">
+          <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section section-alt" id="certifications">
+    <div class="section-label">// Certifications &amp; Formation</div>
+    <h2 class="section-title">Parcours académique</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2024</span>
+          <h3>DEC – Techniques de l'informatique</h3>
+          <p>Collège Universel de Montréal · Formation en Informatique</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2024</span>
+          <h3>Stage à l'usine de Mines et géologie</h3>
+          <p>Attestation de fin de stage proféssionnelle en mine </p>
+          <p>Compagnie des Bauxites de Guinée</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2023</span>
+          <h3>Ingénieur en Mines et géologie</h3>
+          <p>Diplôme de licence proféssionnelle en mine et géologie</p>
+          <p>Université Mahatma Ghandi de Conakry</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2022</span>
+          <h3>Lycée sciences Mathématiques</h3>
+          <p>Diplôme de BAC Unique en sciences Mathématiques</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2015</span>
+          <h3>Études au college Enseignement Génaral </h3>
+          <p>École Roi Mohamed VI</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2014</span>
+          <h3>Études au primaire</h3>
+          <p>École Saint Jean Baptiste</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="section-label">// Contact</div>
+    <h2 class="section-title">Prenons contact</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-intro">Je suis activement à la recherche d'un emploi en tant que technicien informatique.</p>
+        <p>N'hésitez pas à me contacter</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <span class="c-icon"></span>
+            <div>
+              <span class="c-label">Courriel</span>
+              <span class="c-value">alhassanef36@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon"></span>
+            <div>
+              <span class="c-label">Téléphone</span>
+              <span class="c-value">+1(514) 241-7393</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="c-icon"></span>
+            <div>
+              <span class="c-label">Localisation</span>
+              <span class="c-value">Montréal, Québec, Canada</span>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="nom">Nom complet</label>
+          <input type="text" id="nom" placeholder="Votre nom" required/>
+        </div>
+        <div class="form-group">
+          <label for="email">Courriel</label>
+          <input type="email" id="email" placeholder="votre@email.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" placeholder="Opportunité d'emploi..."/>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Votre message..." required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="message">Telephone</label>
+          <textarea id="message" rows="5" placeholder="Numero..." required></textarea>
+        </div>
+        
+        <button type="submit" class="btn-primary full-width">Envoyer le message</button>
+        <div class="form-success" id="form-success">✓ Message envoyé avec succès!</div>
+      </form>
+    </div>
+  </section>
+  
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p><span class="bracket">&lt;</span>Alhassane Fofana<span class="bracket">/&gt;</span> · Technicien Informatique · Montréal, QC</p>
+    <p class="footer-sub">Disponible immédiatement · Fait avec 💻 et passion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

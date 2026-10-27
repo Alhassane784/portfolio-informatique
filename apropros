@@ -1,0 +1,32 @@
+<section class="section" id="apropos">
+    <div class="section-label">// À propos</div>
+    <div class="about-grid">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <div class="photo-inner">AT</div>
+        </div>
+        <div class="about-badge">
+          <span>✓</span> Disponible
+        </div>
+      </div>
+      <div class="about-content">
+        <h2>Passionné de technologie,<br/><span class="accent">prêt à relever les défis</span></h2>
+        <p>Diplômé du programme de Techniques de l'informatique, j'ai acquis une solide formation en support technique, administration des réseaux et sécurité informatique. Je suis reconnu pour ma rigueur, ma capacité à résoudre des problèmes complexes et mon sens du service client.</p>
+        <p>À la recherche d'un premier emploi dans le domaine de l'informatique, je souhaite mettre mes compétences au service d'une entreprise dynamique et contribuer à son infrastructure technologique.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Ans de formation</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">7+</span>
+            <span class="stat-label">Projets réalisés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

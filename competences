@@ -1,0 +1,98 @@
+<section class="section section-alt" id="competences">
+    <div class="section-label">// Compétences</div>
+    <h2 class="section-title">Ce que je maîtrise</h2>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon">🖥️</div>
+        <h3>Support Technique</h3>
+        <ul>
+          <li>Dépannage Windows /Linux</li>
+          <li>Installation et configuration de postes</li>
+          <li>Gestion des tickets</li>
+          
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Réseaux</h3>
+        <ul>
+          <li>TCP/IP, DNS, DHCP, VPN</li>
+          <li>Configuration routeurs & commutateurs</li>
+          <li>Cisco / Packet Tracer</li>
+          <li>Analyse réseau</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">🔐</div>
+        <h3>Cybersécurité</h3>
+        <ul>
+          <li>Sécurisation des systèmes</li>
+          <li>Gestion des pare-feux</li>
+          <li>Antivirus & politiques de sécurité</li>
+          <li>Bases de la cryptographie</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">⚙️</div>
+        <h3>Administration Système</h3>
+        <ul>
+          <li>Active Directory & GPO</li>
+          <li>Serveurs Windows Server 2019/2022</li>
+          <li>Virtualisation (VMware, VirtualBox)</li>
+          <li>Scripts Bash & PowerShell</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">💾</div>
+        <h3>Bases de Données</h3>
+        <ul>
+          <li>MySQL</li>
+          <li>Requêtes SQL avancées</li>
+          <li>Sauvegarde & restauration</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3>Développement</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Python</li>
+          <li>Notions PHP</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Barres de compétences -->
+    <div class="skill-bars">
+      <h3 class="bars-title">Niveau de maîtrise</h3>
+      <div class="bar-item">
+        <div class="bar-label"><span>Support Technique</span><span>90%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:90%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Réseaux</span><span>80%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Cybersécurité</span><span>70%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Admin. Système</span><span>75%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>Scripting / Dev</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:65%"></div></div>
+      </div>
+    </div>
+  </section>

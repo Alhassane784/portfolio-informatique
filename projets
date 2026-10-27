@@ -1,0 +1,130 @@
+<!-- PROJETS -->
+  <section class="section" id="projets">
+    <div class="section-label">// Projets</div>
+    <h2 class="section-title">Mes réalisations</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Réseau</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3>Déploiement réseau d'entreprise</h3>
+        <p>Conception et déploiement d'une infrastructure réseau complète pour une PME fictive : routeurs, commutateurs, VLANs, serveur DHCP/DNS.</p>
+        <div class="project-tech">
+          <span>Cisco IOS</span><span>Packet Tracer</span><span>VLAN</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Admin. Système</span>
+          <span class="project-year">2024</span>
+        </div>
+        <h3>Serveur Active Directory</h3>
+        <p>Mise en place d'un domaine Windows Server avec Active Directory, GPO, partage de fichiers et gestion centralisée des utilisateurs.</p>
+        <div class="project-tech">
+          <span>Windows Server 2022</span><span>AD</span><span>PowerShell</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Sécurité</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3>Audit de sécurité réseau</h3>
+        <p>Réalisation d'un audit de sécurité sur un réseau de laboratoire : analyse des vulnérabilités, rapport et recommandations.</p>
+        <div class="project-tech">
+          <span>Wireshark</span><span>Nmap</span><span>Kali Linux</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Scripting</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3>Script d'automatisation Bash</h3>
+        <p>Développement d'un script Bash pour automatiser les sauvegardes quotidiennes et envoyer des rapports par courriel.</p>
+        <div class="project-tech">
+          <span>Bash</span><span>Linux</span><span>Cron</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Support</span>
+          <span class="project-year">2023</span>
+        </div>
+        <h3>Déploiement de postes de travail</h3>
+        <p>Déploiement et configuration de 20 postes Windows 10 en entreprise, avec intégration au domaine et installation des logiciels métiers.</p>
+        <div class="project-tech">
+          <span>Windows 10</span><span>SCCM</span><span>Active Directory</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-tag">Base de données</span>
+          <span class="project-year">2022</span>
+        </div>
+        <h3>Gestion d'inventaire IT</h3>
+        <p>Création d'une application web simple pour gérer l'inventaire du matériel informatique d'une école, avec base de données MySQL.</p>
+        <div class="project-tech">
+          <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+
+   <!-- CERTIFICATIONS -->
+  <section class="section section-alt" id="certifications">
+    <div class="section-label">// Certifications &amp; Formation</div>
+    <h2 class="section-title">Parcours académique</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2024</span>
+          <h3>DEC – Techniques de l'informatique</h3>
+          <p>Cégep de Montréal · Spécialisation en réseautique et support informatique</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2024</span>
+          <h3>CompTIA A+ (en cours)</h3>
+          <p>Certification internationale en support matériel et logiciel</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2023</span>
+          <h3>Microsoft AZ-900 – Azure Fundamentals</h3>
+          <p>Certification en infonuagique Microsoft Azure</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2023</span>
+          <h3>Cisco CCNA Introduction to Networks</h3>
+          <p>Formation aux fondements des réseaux informatiques</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <span class="tl-year">2022</span>
+          <h3>Google IT Support Certificate</h3>
+          <p>Certification en support informatique (Coursera / Google)</p>
+        </div>
+      </div>
+    </div>
+  </section>
